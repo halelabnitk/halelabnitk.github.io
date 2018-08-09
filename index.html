@@ -1,18 +1,27 @@
 ---
 layout: default
 ---
+<div class="container">
+	Hello There!
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+	Healthcare Analytics & Language Engineering (HALE) Lab is a Research Lab situated in the Department of Information Technology, National Institute of Technology Karnataka (NITK), Surathkal.
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+	We are a team of faculties, research scholars and students specializing in the research of Healthcare Analytics & Informatics and also Language and Linguistics using Natural Language Processing. Application of Artificial Intelligence for welfare of human beings for good healthcare delivery and services is our primary objective.
+	<br>
+	
+	<div class="posts">
+		<h2>Recent Updates</h2>
+	  {% for post in site.posts %}
+	    <article class="post">
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+	      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+	      <div class="entry">
+	        {{ post.excerpt }}
+	      </div>
+
+	      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+	    </article>
+	  {% endfor %}
+	</div>
 </div>
