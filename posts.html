@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HALE Lab @ IT, NITK</title>
+
+    <meta name="description" content="Information about HPCA 2019">
+    <meta name="author" content="GSK!">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="./js/posts.js"></script>
+  </head>
+  <body>
+	<div class="container">
+		
+		<hr>
+	    <div class="row">
+	    	<div class="col-md-2">
+	    		<img class="logo_nitk" src="img/nitk_logo_color.jpeg" alt="nitk_logo">
+	    	</div>
+	    	<div class="col-md-8">
+		    	
+				<div style="text-align: center;">
+					<!-- <h6>ONE WEEK NATIONAL WORKSHOP ON</h6> -->
+					<h4>
+						<b>HEALTHCARE ANALYTICS AND LANGUAGE ENGINEERING (HALE) LAB</b>
+					</h4>
+					<!-- August 12 - 17, 2019 -->
+					<!-- <br> -->
+					
+					<!-- <br> -->
+					<h5>AI &amp; NLP Research @ Department of Information Technology</h5>
+					<!-- <br> -->
+					<h5>National Institute of Technology Karnataka, Surathkal</h5>
+				</div>
+			</div>
+			<div class="col-md-2">
+	    		<img class="logo_dj" src="img/HALE_Lab_Logo.png" alt="DJ_logo">
+	    	</div>
+	    </div>
+	    <hr>
+	    <div id="header" class="sticky-top">
+
+	
+				  
+		  <div class="topnav" id="myTopnav">
+				<a href="index.html">Home</a>
+				<a href="people.html">People</a>
+				<a href="publications.html">Publications</a>
+				<a href="#" class="active">Posts</a>
+				<!-- <a href="#events">Events</a> -->
+				<!-- <a href="#eligibility">Eligibility</a>
+				<a  href="#registration">Registration</a>
+				<a href="#dates">Dates</a>
+				<a  href="#venue">Venue</a>
+				<a  href="#schedule">Schedule</a>
+				<a  href="#team">Team HPCA 2019</a>
+				<a  href="#gallery">Gallery</a>
+				<a  href="#contact">Contact</a> -->
+
+		
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			  <i class="fa fa-bars"></i>
+			</a>
+		  </div>
+
+	    <hr>
+    </div>
+    
+    <div class="content">
+	<div class="row">
+		<div class="col-md-12">
+
+
+			<section class="jumbotron" id="posts">
+				<h2>Posts</h2>
+				<br>
+			</section>
+
+			<script type="text/javascript">
+				for(i=0;i<posts.length;i++){
+					var imageSRC = "";
+					if(posts[i].images) {
+						for(j=0;j<posts[i].images.length;j++) {
+							imageSRC += "<div class='col-md-6'><div class='thumbnail'><a href='"+posts[i].images[j]+"' target='_blank'><img src="+posts[i].images[j]+" class='img-thumbnail' </a></div></div>";
+						}
+					}
+					document.getElementById('posts').innerHTML += "<h3>"+ posts[i].title +"</h3>"+
+					"<i>"+posts[i].date+"</i><br>"+"<p>"+posts[i].body+"</p><br><h4>Images</h4><div class='row'>"+imageSRC+"</div><br><br>";
+					;
+				}
+			</script>
+
+
+		</div>
+	</div>
+	</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+	
+  </body>
+</html>
