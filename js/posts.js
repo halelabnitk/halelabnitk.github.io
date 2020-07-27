@@ -25,5 +25,12 @@ const posts = [
 		"date" : "March 11, 2018",
 		"body" : "Representing HALE Lab @ NITK, Gokul S Krishnan attended a 2-day symposium <i>'Health Analytics and Disease Modeling (HADM) 2018'</i> at the National Academy of Medical Sciences, AIMS, New Delhi, India. The event was held jointly by National Institute of Medical Statistics (NIMS) - Indian Council of Medical Research (ICMR) and Public Health Dynamics Laboratory, University of Pittsburgh, USA. The talk covered various topics on Healthcare Informatics and Population Health. Speakers included Directors and other senior officials from NIMS, ICMR and NCDIR Bengaluru and also prominent researchers in the domain from University of Pittsburgh.",
 		"images" : ["./images/hadm2018/hadm1.jpg", "./images/hadm2018/hadm4.jpg", "./images/hadm2018/hadm3.jpg", "./images/hadm2018/hadm2.jpg"]
+	},
+
+	{
+		"title" : "AISCC 2020 @ Jaipur",
+		"date" : "Feb 27, 2020",
+		"body" : "We presented our paper titled <i>'Improving Clinical Diagnosis Performance with Automated X-ray Scan Quality Enhancement Algorithms'</i>, authored by Karthik K & Dr. Sowmya Kamath S, in International Conference on Advances in Systems, Control and Computing (AISCC-2020), MNIT Jaipur, Rajasthan, Feb 2020. The presentation was done by HALE Lab @ NITK Research Scholar, Karthik K.",
+		"images" : ["./images/aiscc2020/karthik_1.jpg", "./images/aiscc2020/karthik_2.jpg"]
 	}
 ]
